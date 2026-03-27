@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bu-navy: #1b2a4a;
+  --bu-maroon: #7b1a2c;
+  --bu-orange: #d95f0e;
+  --bu-teal: #0a7b73;
+  --bu-gold: #c9922a;
+  --bu-cream: #f5f0e8;
+  --bu-white: #ffffff;
+}
+
+html,
+body,
+#__next {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at 20% -20%, #ffffff 0%, #f5f0e8 40%, #efe5d8 100%);
+}
