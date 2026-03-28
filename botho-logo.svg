@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Botho University">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1B2A4A" />
+      <stop offset="100%" stop-color="#0A7B73" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#g)" />
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#C9922A" stroke-width="4" />
+  <text x="60" y="70" text-anchor="middle" font-family="Sora, sans-serif" font-size="34" font-weight="700" fill="#F5F0E8">BU</text>
+</svg>
