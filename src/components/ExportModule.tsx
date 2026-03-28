@@ -1,10 +1,34 @@
 import html2canvas from 'html2canvas';
 
+async function waitForImagesInElement(element: HTMLElement, timeoutMs = 3000): Promise<void> {
+  const images = Array.from(element.querySelectorAll('img'));
+  const pending = images.filter((img) => !img.complete);
+
+  if (pending.length === 0) {
+    return;
+  }
+
+  await Promise.race([
+    Promise.all(
+      pending.map(
+        (img) =>
+          new Promise<void>((resolve) => {
+            img.addEventListener('load', () => resolve(), { once: true });
+            img.addEventListener('error', () => resolve(), { once: true });
+          }),
+      ),
+    ),
+    new Promise<void>((resolve) => setTimeout(resolve, timeoutMs)),
+  ]);
+}
+
 export async function exportResultCard(elementId: string, studentName: string) {
   const element = document.getElementById(elementId);
   if (!element) return;
 
   try {
+    await waitForImagesInElement(element);
+
     const canvas = await html2canvas(element, {
       scale: 2,
       useCORS: true,

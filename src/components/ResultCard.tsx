@@ -1,4 +1,5 @@
 import { useMemo } from 'react';
+import { useRouter } from 'next/router';
 import { calculateCGPA, getHonours, ModuleResult } from '@/components/GPAEngine';
 import { exportResultCard } from '@/components/ExportModule';
 import { GradesByModuleCode, UIProgramme } from '@/lib/types';
@@ -41,6 +42,9 @@ export function ResultCard({
   onBack,
   onStartOver,
 }: ResultCardProps) {
+  const { basePath } = useRouter();
+  const qrImageSrc = `${basePath}/qr-code.png`;
+
   const semesterResults = useMemo(() => {
     return programme.years.map((year) =>
       year.semesters.flatMap((semester) =>
@@ -195,7 +199,7 @@ export function ResultCard({
         <div className="flex items-center justify-start gap-6 rounded-2xl bg-white border border-slate-200 p-6 shadow-sm">
           <div className="h-24 w-24 bg-white p-2 rounded-xl shadow-sm border border-slate-200 flex-shrink-0">
                <img 
-                 src="/qr-code.png" 
+                 src={qrImageSrc}
                  alt="Scan to calculate yours" 
                  className="h-full w-full object-contain" 
                />
