@@ -1689,5 +1689,88 @@
         ]
       }
     ]
-  }
+  },
+   {
+  "id": "btech-software-engineering",
+  "code": "C7-SEN-23",
+  "name": "Bachelor of Technology in Software Engineering",
+  "shortName": "BTech Software Engineering",
+  "faculty": "Faculty of Engineering and Technology",
+  "facultyCode": "engineering",
+  "level": "Bachelors",
+  "duration": 4,
+  "durationUnit": "years",
+  "durationSemesters": 8,
+  "description": "This programme is designed to enable the students to create high-quality software applications for complex organisational environments, with an emphasis on good engineering practices that allow for ease of maintenance and the use of existing components.",
+  "semesters": [
+    {
+      "semester": 1,
+      "modules": [
+        { "code": "C5-IC1-23", "name": "Introduction to Computing and Programming I (MS Office & Programming Basics)", "credits": 15.0, "type": "core" },
+        { "code": "C5-PES-23", "name": "Professional, Ethical, and Social Issues in Computing", "credits": 15.0, "type": "core" },
+        { "code": "C5-PSE-23", "name": "Principles of Software Engineering", "credits": 15.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 2,
+      "modules": [
+        { "code": "C6-IC2-23", "name": "Introduction to Computing and Programming 2", "credits": 15.0, "type": "core" },
+        { "code": "C6-DSE-23", "name": "Discrete Structures", "credits": 15.0, "type": "core" },
+        { "code": "C5-MAT-23", "name": "Essentials of Mathematics", "credits": 15.0, "type": "core" },
+        { "code": "C6-CCO-23", "name": "Calculus for Computing", "credits": 15.0, "type": "core" },
+        { "code": "C6-LAL-23", "name": "Linear Algebra", "credits": 15.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 3,
+      "modules": [
+        { "code": "C7-SEN-23", "name": "Software Engineering", "credits": 15.0, "type": "core" },
+        { "code": "C6-INS-23", "name": "Introduction to Software Security", "credits": 15.0, "type": "core" },
+        { "code": "C6-PC+-23", "name": "Programming using C++", "credits": 15.0, "type": "core" },
+        { "code": "C6-WDD-23", "name": "Web Development", "credits": 15.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 4,
+      "modules": [
+        { "code": "C7-SDP-23", "name": "Software Development Project", "credits": 15.0, "type": "core" },
+        { "code": "C7-IJP-23", "name": "Introduction to Java Programming", "credits": 15.0, "type": "core" },
+        { "code": "C7-DAA-23", "name": "Data Structures and Algorithms", "credits": 15.0, "type": "core" },
+        { "code": "C7-CNA-24", "name": "Computer Networks and Applications", "credits": 15.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 5,
+      "modules": [
+        { "code": "C7-SPA-23", "name": "Software Architecture and Patterns", "credits": 15.0, "type": "core" },
+        { "code": "C7-CCP-24", "name": "Communication Design for Computing Professionals", "credits": 15.0, "type": "core" },
+        { "code": "C7-PAS-23", "name": "Probability and Statistics", "credits": 15.0, "type": "core" },
+        { "code": "C7-SPM-23", "name": "Software Project Management", "credits": 15.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 6,
+      "modules": [
+        { "code": "C7-PUP-23", "name": "Programming using Python", "credits": 15.0, "type": "core" },
+        { "code": "C7-SRA-23", "name": "Software Requirements Analysis and Design", "credits": 15.0, "type": "core" },
+        { "code": "C7-UID-23", "name": "User Interface Design and Implementation", "credits": 15.0, "type": "core" },
+        { "code": "ELECTIVE", "name": "Select one Elective", "credits": 15.0, "type": "elective", "options": ["C7-PDS-23: Parallel and Distributed Software Engineering", "C7-SQA-23: Software Quality Assurance", "C7-EAI-23: Entrepreneurship and Innovation"] }
+      ]
+    },
+    {
+      "semester": 7,
+      "modules": [
+        { "code": "C7-PPR-11", "name": "Professional Practice", "credits": 60.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 8,
+      "modules": [
+        { "code": "C7-STG-23", "name": "Software Testing", "credits": 15.0, "type": "core" },
+        { "code": "C8-PRO-23", "name": "Project", "credits": 30.0, "type": "core" },
+        { "code": "ELECTIVE", "name": "Select one Elective", "credits": 15.0, "type": "elective", "options": ["C8-SQC-23: Software Quality Control", "C8-STM-23: Software Testing and Maintenance", "C8-AIN-23: Artificial Intelligence"] }
+      ]
+    }
+  ]
+}
 ]
