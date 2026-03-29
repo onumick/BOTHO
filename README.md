@@ -115,9 +115,6 @@ If your repository name changes, update the GitHub Pages base path in `next.conf
 - No student records sent to a backend.
 - All calculations happen on-device.
 
-## Known Caveat
-
-`src/components/ResultCard.tsx` references `/qr-code.png` in the exported report section. Ensure `public/qr-code.png` exists if you want the QR image to render in the report.
 
 ## Contributing
 
