@@ -1772,5 +1772,113 @@
       ]
     }
   ]
+},
+{
+  "id": "beng-electronics-communication-engineering",
+  "code": "BEng-ECE",
+  "name": "Bachelor of Engineering in Electronics and Communication Engineering",
+  "shortName": "BEng Electronics and Communication Engineering",
+  "faculty": "Faculty of Engineering and Technology",
+  "facultyCode": "engineering",
+  "level": "Bachelors",
+  "duration": 5,
+  "durationUnit": "years",
+  "durationSemesters": 9,
+  "description": "The Bachelor of Engineering (BEng) in Electronics and Communication program is a comprehensive five-year, 600 credits undergraduate program designed to equip students with a deep understanding of electronic systems and communication technologies through a blend of theoretical knowledge, practical skills, and hands-on experience.",
+  "semesters": [
+    {
+      "semester": 1,
+      "modules": [
+        { "code": "E5-PH1-23", "name": "Physics-1", "credits": 15.0, "type": "core" },
+        { "code": "E5-GC1-23", "name": "General Chemistry-1", "credits": 15.0, "type": "core" },
+        { "code": "C5-CE1-20", "name": "Computer and its essentials 1", "credits": 10.0, "type": "core" },
+        { "code": "E6-EEW-24", "name": "Electrical Engineering Workshop and Electronics", "credits": 10.0, "type": "core" },
+        { "code": "E5-PCM-23", "name": "Precalculus for Mathematics", "credits": 10.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 2,
+      "modules": [
+        { "code": "E5-PH2-23", "name": "Physics -2", "credits": 15.0, "type": "core" },
+        { "code": "E5-GC2-23", "name": "General Chemistry -2", "credits": 15.0, "type": "core" },
+        { "code": "E6-LAM-23", "name": "Linear Algebra", "credits": 10.0, "type": "core" },
+        { "code": "E5-EM1-23", "name": "Engineering Mathematics 1", "credits": 10.0, "type": "core" },
+        { "code": "C6-CE2-20", "name": "Computer and its essentials - II", "credits": 10.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 3,
+      "modules": [
+        { "code": "E6-PPC-23", "name": "Procedural Programming in C and Python", "credits": 10.0, "type": "core" },
+        { "code": "D6-AWS-20", "name": "Academic writing for STEM", "credits": 10.0, "type": "core" },
+        { "code": "E6-EME-23", "name": "Engineering Mathematics 2", "credits": 10.0, "type": "core" },
+        { "code": "E6-END-23", "name": "Engineering Drawing", "credits": 10.0, "type": "core" },
+        { "code": "E6-ECA-23", "name": "Electrical circuit Analysis", "credits": 10.0, "type": "core" },
+        { "code": "E6-EDC-23", "name": "Electronic Devices and Circuits", "credits": 10.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 4,
+      "modules": [
+        { "code": "E6-EWP-23", "name": "Engineering Workshop Practice", "credits": 10.0, "type": "core" },
+        { "code": "E6-EM3-23", "name": "Engineering mathematics - 3", "credits": 10.0, "type": "core" },
+        { "code": "E6-DET-23", "name": "Digital Electronics", "credits": 10.0, "type": "core" },
+        { "code": "E6-AET-23", "name": "Analogue Electronic Circuit Design", "credits": 10.0, "type": "core" },
+        { "code": "E6-ADE-23", "name": "Analogue and Digital Electronics Lab", "credits": 10.0, "type": "core" },
+        { "code": "E6-EMW-23", "name": "Electromagnetism & Waves", "credits": 10.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 5,
+      "modules": [
+        { "code": "E7-CME-24", "name": "Communication Engineering", "credits": 10.0, "type": "core" },
+        { "code": "E6-SAS-23", "name": "Signals and System Design", "credits": 10.0, "type": "core" },
+        { "code": "E7-DCE-24", "name": "Data Communication and Network Engineering", "credits": 10.0, "type": "core" },
+        { "code": "E6-EM4-23", "name": "Engineering mathematics - 4", "credits": 10.0, "type": "core" },
+        { "code": "E7-DCM-24", "name": "Digital communication", "credits": 10.0, "type": "core" },
+        { "code": "E7-CML-24", "name": "Communication lab", "credits": 10.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 6,
+      "modules": [
+        { "code": "E7-DG1-24", "name": "Design Group project - 1", "credits": 10.0, "type": "core" },
+        { "code": "E7-LIC-24", "name": "Linear integrated circuits Design", "credits": 10.0, "type": "core" },
+        { "code": "E7-MML-23", "name": "Microprocessor & Microcontrollers Design Lab", "credits": 10.0, "type": "core" },
+        { "code": "E7-MMD-23", "name": "Microprocessor & Microcontrollers", "credits": 10.0, "type": "core" },
+        { "code": "E7-WCN-24", "name": "Wireless communication and networks", "credits": 10.0, "type": "core" },
+        { "code": "E7-TLW-24", "name": "Transmission lines and wave guides", "credits": 10.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 7,
+      "modules": [
+        { "code": "E7-DSP-23", "name": "Digital signal processing", "credits": 10.0, "type": "core" },
+        { "code": "C7-CSE-24", "name": "Control System Engineering Design", "credits": 10.0, "type": "core" },
+        { "code": "E7-AWP-24", "name": "Antenna and wave propagation", "credits": 10.0, "type": "core" },
+        { "code": "E8-RMS-24", "name": "Research Methods in STEM", "credits": 10.0, "type": "core" },
+        { "code": "E8-ESD-23", "name": "Embedded system Design", "credits": 10.0, "type": "core" },
+        { "code": "E7-DG2-24", "name": "Design Group project - 2", "credits": 10.0, "type": "core" }
+      ]
+    },
+    {
+      "semester": 8,
+      "modules": [
+        { "code": "E8-MOS-24", "name": "Millimeter wave Optical Communication Systems", "credits": 10.0, "type": "core" },
+        { "code": "E8-RME-24", "name": "RF Microelectronics and Microwave engineering", "credits": 10.0, "type": "core" },
+        { "code": "E8-0ML-24", "name": "Optical and microwave engineering laboratory", "credits": 10.0, "type": "core" },
+        { "code": "E8-PR1-23", "name": "Research Project 1", "credits": 10.0, "type": "core" },
+        { "code": "E8-VLD-24", "name": "VLSI Design", "credits": 10.0, "type": "core" },
+        { "code": "ELECTIVE_1", "name": "Select any one Elective", "credits": 10.0, "type": "elective", "options": ["E7-SCS-24: Security in communication systems", "E7-DST-24: Digital Switching and Transmission", "E7-EIM-24: Electronic Instrumentation and Measurement", "E7-IES-24: IoT Enabled Systems", "E8-EIS-24: Engineers in Society", "B8-ENI-20: Entrepreneurship & Innovation (20 credits)", "E8-PR2-23: Research Project 2"] },
+        { "code": "ELECTIVE_2", "name": "Select any two Electives", "credits": 20.0, "type": "elective", "options": ["E8-RAA-24: Robotics and Automation", "E8-BME-24: Bio Medical Engineering", "E8-AWC-24: Advanced Wireless Communication", "E8-CAI-24: CMOS Analog IC Design", "E8-SAC-24: Satellite Communication", "E8-0EN-24: Opto Electronics and networks", "E8-MEM-24: MEMS", "E8-EMI-24: Electromagnetic Interface and Compatibility"] }
+      ]
+    },
+    {
+      "semester": 9,
+      "modules": [
+        { "code": "E8-PPR-23", "name": "Professional Practice", "credits": 60.0, "type": "core" }
+      ]
+    }
+  ]
 }
 ]
